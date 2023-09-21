@@ -1,0 +1,103 @@
+/* ..........................First Section................................ */
+
+@keyframes slide {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes MovingImage1 {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes MovingImage2 {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes MovingImage3 {
+
+    0%,
+    100% {
+        transform: translateY(-80px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes MovingImage4 {
+
+    0%,
+    100% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* ...............Benefits of Ribin App Section...................... */
+
+.marquee-container {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    gap: 10px;
+    /* Adjust animation duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* ........................Ribin for Business Section.............................. */
+
+@keyframes ImgSlide {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes ContentSlide {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
