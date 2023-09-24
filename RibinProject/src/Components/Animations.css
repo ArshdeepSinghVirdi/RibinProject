@@ -63,7 +63,7 @@
 .marquee-container {
     display: flex;
     animation-name: marquee;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     gap: 10px;
@@ -100,4 +100,14 @@
     to {
         transform: translateX(0px);
     }
+}
+
+.addAnimate {
+    width: 100%;
+    transform: translateX(112%);
+    animation-name: ContentSlide;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }

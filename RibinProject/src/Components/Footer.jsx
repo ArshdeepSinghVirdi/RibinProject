@@ -34,7 +34,7 @@ const Footer = () => {
                     textAlign: 'left',
                     width: '100%',
                 }}>
-                <Stack direction={{ xs: 'column', md: 'row' }} gap={6}>
+                <Stack direction={{ xs: 'column', md: 'row' }} flexWrap='wrap' gap={6}>
                     {/* Company Section */}
                     <Stack sx={{ marginRight: '20px' }}>
                         <Typography variant="h6" gutterBottom>

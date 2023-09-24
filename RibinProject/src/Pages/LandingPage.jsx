@@ -9,7 +9,7 @@ import { Stack } from '@mui/material'
 
 const LandingPage = () => {
     return (
-        <Stack direction='column' gap='1rem'>
+        <Stack direction='column'>
             <Navbar />
             <FirstSection />
             <SecondSection />
